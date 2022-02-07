@@ -13,7 +13,7 @@ const appCfg = {
     routes:[
         {navItem:true, exact:true, path:"/",name:"Home",view:<Home/>},
         {navItem:true, exact:true, path:"/services",name:"Services",view:<Services/>},
-        {navItem:true, exact:true, path:"/about",name:"Contact",view:<About/>},
+        {navItem:true, exact:true, path:"/about",name:"About",view:<About/>},
         {navItem:true, exact:true, path:"/contact",name:"Contact",view:<Contact/>},
         {navItem:true, exact:true, path:"/login",name:<span className="fa fa-user-circle"></span>,view:<Login backLink={{name:" Register now!",href:"/register"}}/>},
         {navItem:false, exact:true, path:"/comingsoon",name:"Comingsoon",view:<Comingsoon/>},
