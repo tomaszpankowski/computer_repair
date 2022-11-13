@@ -1,6 +1,16 @@
 @include aoa-bg-series($bg__init,$classes_init);
+@media all and (orientation:portrait){
+    .about{
+        &-s2{
+            background-position: center!important;
+        }
+    }
+}
 
 .about{
+    &-s1{
+        background-position: center!important;
+    }
     &-s2{
         background-position: right!important;
     }
@@ -12,13 +22,16 @@
     }
 }
 
-.index,.services{
+.index{
     &-s1{
-        background-position: right!important;
+        background-position: center!important;
     }
 }
 
 .services{
+    &-s1{
+        background-position: center!important;
+    }
     &-s3{
         *{
             color: #fff !important;
